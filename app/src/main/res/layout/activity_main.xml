@@ -23,6 +23,7 @@
             android:layout_marginBottom="8dp">
 
             <Button
+                android:id="@+id/calculate_scores"
                 android:layout_width="175dp"
                 android:layout_height="50dp"
                 android:text="Calculate Scores"

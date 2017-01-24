@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -100,6 +101,9 @@ public class MainActivity extends AppCompatActivity {
         showScore(view, whittaker, (LinearLayout)findViewById(R.id.whittaker_id));
         showScore(view, silva, (LinearLayout)findViewById(R.id.silva_id));
         showScore(view, brunson, (LinearLayout)findViewById(R.id.brunson_id));
+
+        Button btn = (Button)findViewById(R.id.calculate_scores);
+        btn.setEnabled(false);
     }
 
     //-----------------------------------------------------------
